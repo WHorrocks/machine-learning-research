@@ -87,6 +87,8 @@ class TensorGenerator():
 		np.random.shuffle(TotalData)
 		#Now TotalData is in a random order. That way when I iterate through it the data the ANN gets will be in a random order instead of going through all of the circles and then all of the Torus points.
 
+
+
 		#Now cutting the array up into Coordinate and Label arrays to return
 		
 		#Coordinate arrays
